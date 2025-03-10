@@ -369,7 +369,7 @@ Official Channel :- https://t.me/+aTykrekd1YJlNDc1
 
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
-    user_name = message.from_user.first_name
+     username = message.from_user.username if message.from_user.username else message.from_user.first_name
     response = f"""
 👋🏻 𝗪𝗘𝗟𝗖𝗢𝗠𝗘, {username} 💀! 🔥
 ━━━━━━━━━━━━━━━━━━━━━
