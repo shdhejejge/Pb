@@ -370,8 +370,7 @@ Official Channel :- https://t.me/+aTykrekd1YJlNDc1
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
      username = message.from_user.username if message.from_user.username else message.from_user.first_name
-    response = f"""
-👋🏻 𝗪𝗘𝗟𝗖𝗢𝗠𝗘, {username} 💀! 🔥
+    response = f"""👋🏻 𝗪𝗘𝗟𝗖𝗢𝗠𝗘, {username} 💀! 🔥
 ━━━━━━━━━━━━━━━━━━━━━
 🤖 𝗧𝗛𝗜𝗦 𝗜𝗦 𝗠𝗨𝗦𝗧𝗔𝗙𝗔 𝗕𝗢𝗧!
 🚀 𝗘𝗻𝗷𝗼𝘆 𝗵𝗶𝗴𝗵-𝘀𝗽𝗲𝗲𝗱 𝗮𝘁𝘁𝗮𝗰𝗸𝘀!
